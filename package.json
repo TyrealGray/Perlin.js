@@ -1,6 +1,6 @@
 {
   "name": "loms.perlin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript 2D Perlin & Simplex noise functions",
   "main": "perlin.js",
   "scripts": {
