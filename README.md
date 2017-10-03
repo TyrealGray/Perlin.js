@@ -19,23 +19,25 @@ with it, etc.
 ## How to make noise:
 
 ```javascript
-noise.seed(Math.random());
+import Perlin from 'loms.perlin';
+
+Perlin.seed(Math.random());
 
 for (var x = 0; x < canvas.width; x++) {
   for (var y = 0; y < canvas.height; y++) {
-    // All noise functions return values in the range of -1 to 1.
+    // All Perlin functions return values in the range of -1 to 1.
 
-    // noise.simplex2 and noise.perlin2 for 2d noise
-    var value = noise.simplex2(x / 100, y / 100);
-    // ... or noise.simplex3 and noise.perlin3:
-    var value = noise.simplex3(x / 100, y / 100, time);
+    // Perlin.simplex2 and Perlin.perlin2 for 2d noise
+    var value = Perlin.simplex2(x / 100, y / 100);
+    // ... or Perlin.simplex3 and Perlin.perlin3:
+    var value = Perlin.simplex3(x / 100, y / 100, time);
 
     image[x][y].r = Math.abs(value) * 256; // Or whatever. Open demo.html to see it used with canvas.
   }
 }
 ```
 
-The library exposes an object called `noise` with the following properties:
+The library exposes an object called `Perlin` with the following properties:
 
 - **simplex2(x, y)**: 2D Simplex noise function
 - **simplex3(x, y, z)**: 3D Simplex noise function
