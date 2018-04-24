@@ -14,7 +14,7 @@ The code is based on Stefan Gustavson's implementation. Do whatever you want
 with it, etc.
 
 ## install
-`$ npm install --save-dev loms.perlin`
+`$ npm install --save loms.perlin`
 
 ## How to make noise:
 
