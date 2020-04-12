@@ -1,4 +1,4 @@
-# loms.perlin
+# perlin.js
 Javascript 2D Perlin &amp; Simplex noise functions forked from https://github.com/josephg/noisejs
 
 ---
@@ -14,12 +14,12 @@ The code is based on Stefan Gustavson's implementation. Do whatever you want
 with it, etc.
 
 ## install
-`$ npm install --save loms.perlin`
+`$ npm install --save perlin.js`
 
 ## How to make noise:
 
 ```javascript
-import Perlin from 'loms.perlin';
+import Perlin from 'perlin.js';
 
 Perlin.seed(Math.random());
 

@@ -1,6 +1,6 @@
 {
-  "name": "loms.perlin",
-  "version": "1.0.2",
+  "name": "perlin.js",
+  "version": "1.0.0",
   "description": "Javascript 2D Perlin & Simplex noise functions",
   "main": "perlin.js",
   "scripts": {
@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SkyHarp/loms.perlin.git"
+    "url": "git+https://github.com/tyrealgray/perlin.js.git"
   },
   "keywords": [
     "perlin",
     "noise"
   ],
-  "author": "SkyHarp",
+  "author": "TyrealGray",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SkyHarp/loms.perlin/issues"
+    "url": "https://github.com/tyrealgray/perlin.js/issues"
   },
-  "homepage": "https://github.com/SkyHarp/loms.perlin#readme"
+  "homepage": "https://github.com/tyrealgray/perlin.js#readme"
 }

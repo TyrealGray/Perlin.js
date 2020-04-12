@@ -12,7 +12,7 @@
  * Stefan Gustavson. You may use it as you see fit, but
  * attribution is appreciated.
  *
- * refact in UMD by TyrealGray
+ * refactor to UMD by TyrealGray
  * 2016-09-28
  */
 
